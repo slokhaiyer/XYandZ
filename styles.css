@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffccbc; /* Light background color */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.container {
+    max-width: 1000px; /* Maximum width of the container */
+    width: 100%; /* Cover 90% of the screen */
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    padding: 20px; /* Padding inside the container */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for the title */
+    color: #d84315; /* Title color */
+}
+
+button {
+    padding: 10px 20px; /* Increased padding for buttons */
+    background-color: #d84315; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer;
+    font-size: 1.2em; /* Larger font size for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #c62828; /* Darker shade on hover */
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #d84315; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light gray background for sections */
+}
+
+h2 {
+    font-size: 1.8em; /* Larger font size for section titles */
+    color: #c62828; /* Section title color */
+}
+
+p {
+    font-size: 1.5em; /* Larger font size for challenge text */
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.lockBtn {
+    margin-right: 10px; /* Space between lock icon and text */
+    cursor: pointer;
+    font-size: 1.5em; /* Larger lock icon */
+}
+
+footer {
+    text-align: center; /* Center the footer text */
+    font-size: 0.9em; /* Smaller font size for footer */
+    margin-top: 20px; /* Space above the footer */
+    padding: 10px 0; /* Padding for the footer */
+    border-top: 1px solid #d84315; /* Optional: Add a top border for separation */
+}
+
+.heart {
+    color: red; /* Color for the heart icon */
+}
